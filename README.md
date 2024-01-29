@@ -1,5 +1,4 @@
-#mang150.github.io
-# H1
+# Arielle's resume 
 ## H2
 ### H3
 #### H4
