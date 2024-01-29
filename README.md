@@ -1,4 +1,4 @@
-# mang150.github.io
+#mang150
 #Design Document
 
 The distance vector routing algorithm is executed in an emulated environment. Source files prog3.c, node0.c, node1.c, node2.c, and node3.c are needed for the routing algorithm to be executed. 
