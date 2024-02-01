@@ -108,7 +108,7 @@
     <script>
         // JavaScript features for the webpage
         window.addEventListener("load", function() {
-            // Get the hobby images
+            // Get hobby images
             var images = document.querySelectorAll(".hobby img");
             // Loop through the images
             for (var i = 0; i < images.length; i++) {
@@ -116,7 +116,7 @@
                 images[i].addEventListener("click", function() {
                     // Get the hobby name from the image alt attribute
                     var hobby = this.alt;
-                    // Display an alert message with the hobby name
+                    // Display message with the hobby name
                     alert("You clicked on " + hobby + "!");
                 });
             }
