@@ -138,7 +138,7 @@
         </div>
         <div class="section">
             <h2>Summary</h2>
-            <p>An accomplished graduate student, with experience in building databases, 			developing code to enhance web pages and the content within the website, 			analyzing data using tools such as Excel to solve algorithms and 						specific problems. With rich experience with coding and using tools, can 				provide accurate and highly efficient results.</p>
+            <p>An accomplished graduate student, with experience in building databases, developing code to enhance web pages and the content within the website, analyzing data using tools such as Excel to solve algorithms and 						specific problems. With rich experience with coding and using tools, can provide accurate and highly efficient results.</p>
         </div>
         <div class="section">
             <h2>Skills</h2>
@@ -154,7 +154,7 @@
             <ul>
                 <li><a href="https://www.wix.com">Project 1</a>: A social media platform for web developers".</li>
                 <li><a href="https://bookscouter.com">Project 2</a>: A e-commerce website for selling books".</li>
-                <li><a href="https://www.sololearn.com/en/">Project 3</a>: A blog website for sharing tips and tutorials about coding".</li>
+                <li><a href="https://www.w3schools.com/">Project 3</a>: A blog website for sharing tips and tutorials about coding".</li>
             </ul>
         </div>
         <div class="section">
