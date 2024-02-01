@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>My Profile Resume</title>
+    <title>My Resume</title>
     <style>
         /* CSS styles for the webpage */
         body {
