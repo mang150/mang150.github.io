@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Horror Book Lover</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* CSS for styling */
+body {
+  font-family: Times New Roman;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: white;
+  color: black;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+-/* Responsive layout - when the screen is less than 700px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width 700px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div>
+<div class="header">
+  <p><h1> Horror Book Lover</h1> 
+  <p>A website created by Arielle and Ziko.</p>
+  
+  
+ 
+
+<div>
+<div class="navbar">
+  <a href="https://getfreewrite.com/blogs/writing-success/writing-tips-from-famous-writers">Writing tips</a>
+  <a href="https://www.biography.com/authors-writers/stephen-king">Author Bio </a>
+  <a href="https://www.businessinsider.com/guides/learning/best-stephen-king-books#19-the-third-novel-in-a-thrilling-series-2">Book Reviews</a>
+  <a href="https://www.goodreads.com/group/show/125975-stephen-king-book-club"> Stephen King Book Club </a>
+  <a href="https://bookriot.com/the-ultimate-stephen-king-reading-guide-from-a-constant-reader/"> Book Guide </a>
+  <a href="https://stephenking.com/xf/index.php"> Discussion Councils</a> 
+  <a href="https://www.youtube.com/watch?v=MoejU-tf4xI&t=21s"> Stephen king reveal his favorite stories</a>
+  <a href="https://stephenking.com/"> Offical Website</a>
+  
+
+ 
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About me:</h2>
+    <h3> As a child, we used to read fairytales with my parents before bed. Tho some outgrow reading, Those stories inpsire me for a passion for books. I used to read many books of all categories such as fantasies, science fiction, biographies and atuobiographies, adventure, comedies, mysteries crime stories, true stories, romance, short stories, graphic novels, and horror. Stephen king aka " The king of horror" has created so many best selling books due to the tension and unpredictability of the characters in his books. Thus, I grew a love for Stephen King books and short stories. Therefore, due to his many fans including me, he is still "The King of Horror".
+    <h2>Photo of Stephen king:</h2>
+    <img src = "https://th.bing.com/th/id/OIP.t0a3kleAtTLSOHtNqpLimwHaGl?w=202&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7">
+    <h3>Best-selling books </h3>
+    <p></p>
+   <div class="fakeimg"style="height:550px;"><img src ="https://th.bing.com/th/id/R.eb77f93f4aceac74eb912fba3d6805d0?rik=Sf8vWB3sncjEZQ&riu=http%3a%2f%2fstudyabroadaide.com%2fwp-content%2fuploads%2f2017%2f12%2fStephen-King-Best-Selling-Novels.jpg&ehk=8vd0qpdeTYN3dLdsn1%2b5PzSr%2f%2bfnAcRjMhyN95Xumn8%3d&risl=&pid=ImgRaw&r=0"><br>
+  </div>
+  
+  <div class="main">
+    <h2>Upcoming Book</h2>
+    <h3>You like it darker? Fine, so do I</h3>
+    <h4> Release Date: May 21st, 2024<h4>
+     <h1>King’s ability to surprise, amaze, and bring us both terror and solace remains unsurpassed. Each of these stories holds its own thrills, joys, and mysteries; each feels iconic. You like it darker? You got it.</h1>
+     
+     <button onclick="myFunction()">Offical Quote</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML ="“Books are a uniquely portable magic.”";
+}
+</script>
+     
+   <p><img src = "https://target.scene7.com/is/image/Target/GUEST_df0abde8-10c4-45c6-8760-5f0ff8b1c7f4?wid=1200&hei=1200&qlt=80&fmt=webp"></p>
+   
+    
+<div>
+  
+<div class="footer">
+ <li><a href="https://twitter.com/stephenking"><h1>"Share your thoughts on the twitter fanpage!"</h1></a></li>
+  </body>
+  </html>
