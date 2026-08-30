@@ -1,0 +1,62 @@
+$(function() {
+   $("#compareBtn").click(compareBtnClick);
+   $("#currency1").on("input", currencyInput);
+   $("#currency2").on("input", currencyInput);
+  // Called when currency input values change
+function currencyInput(e) {
+   // Extract the text from city input that triggered the callback
+   const currencyId = e.target.id;
+   const currency = $(`#${currencyId}`).val().trim();
+ // Only show error message if no city 
+   if (currency === 0) {
+      showElement("error-value-" + currencyId);      
+   }
+   else {
+      hideElement("error-value-" + currencyId);
+   }
+}  
+  // Compare button is clicked
+function compareBtnClick() {
+   // Get user input
+   const currency1 = $("#currency1").val().trim();
+   const currency2 = $("#currency2").val().trim();
+   // Show error messages if city fields left blank
+   if (city1.length === 0) {
+      showElement("error-value-currency1");
+   }
+   if (city2.length === 0) {
+      showElement("error-value-currency2");
+   }
+   // Ensure both currency names provided
+   if (currency1.length > 0 && currency2.length > 0) {
+      showElement("convert");
+      hideElement("error-loading-currency1");
+      hideElement("error-loading-currency2");
+      showElement("loading-currency1");
+      showText("loading-currency1", `Loading ${currency1}...`);
+      showElement("loading-currency2");
+      showText("loading-currency2", `Loading ${currency2}...`);
+      hideElement("results-currency1");
+      hideElement("results-currency2");
+      // Fetch conversions
+      getCurrencyConversion(currency1, "currency1");
+      getCurrencyConversion(currency2, "currency2");
+   }
+}
+ // Request this currency conversion
+function getCurrencyConversion(currency, currencyId) {
+// TODO: Implement function
+}
+// Show the element
+function showElement(elementId) {
+$(`#${elementId}`).show();
+}
+// Hide the element
+function hideElement(elementId) {
+$(`#${elementId}`).hide();
+}
+// Display the text in the element
+function showText(elementId, text) {
+$(`#${elementId}`).html(text);
+}
+});
