@@ -1,0 +1,37 @@
+'''
+    Use these constant variables for indexing into
+    your results list. See the function
+    print_results for examples.
+'''
+
+def text_analyzer():
+    pass
+
+    ''' result list in print_results - hold 5 variables'''
+NUM_CHARS = 0
+NUM_SPACES = 1
+NUM_DIGITS = 2
+NUM_LETTERS = 3
+NUM_SENTENCES = 4
+
+####### DO NOT EDIT CONSTANT VARIABLES ABOVE ########
+
+def main():
+ my_list = {1,2,3,4,5}
+ print_results(my_list)
+
+
+######## DO NOT EDIT CODE BELOW THIS LINE ########
+
+def print_results(my_list):
+    assert len(my_list) == 5 , "list 5 items"
+    print()
+    print("Number of characters:" %my_list[NUM_CHARS])
+    print("Number of characters: " %my_list[NUM_SPACES])
+    print("Number of characters:" %my_list[NUM_DIGITS])
+    print("Number of characters:" %my_list[NUM_LETTERS])
+    print("Number of sentences:" %my_list[NUM_SENTENCES])
+if __name__ == '__main__':
+    main()
+
+
